@@ -47,19 +47,3 @@ print(User)
 student1 = Student(name="jimenez", email="21181@vitual.utsc.edu.mx")
 print(student1)
 
-list1 = ['8901bec5-8e07-4c41-9a55-f5b44a22e536', 'ad62ef52-acdc-41f3-97b3-acc3ccef27fc', 'e07b3196-82f9-40ad-a6d4-99764235ef72']
-
-dict1 = dict()
-for i, uuid_str in enumerate(list1):
-    dict1[uuid_str] = Student(
-        name="student" + str(i),
-        email="email" + str(i) + "@ust",
-        id=uuid_str
-    )
-print(dict1)
-print(dict1['8901bec5-8e07-4c41-9a55-f5b44a22e536'])
-
-print(dict1)
-print(dict1['8901bec5-8e07-4c41-9a55-f5b44a22e536'])
-
-dict2={'8901bec5-8e07-4c41-9a55-f5b44a22e536': Student(name='student0',email='email0@ust', id='8901bec5-8e07-4c41-9a55-f5b44a22e536'), 'ad62ef52-acdc-41f3-97b3-acc3ccef27fc': Student(name='student1',email='email1@ust', id='ad62ef52-acdc-41f3-97b3-acc3ccef27fc'), 'e07b3196-82f9-40ad-a6d4-99764235ef72': Student(name='student2',email='email2@ust', id='e07b3196-82f9-40ad-a6d4-99764235ef72')}
